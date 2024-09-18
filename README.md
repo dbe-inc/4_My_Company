@@ -1,2 +1,1 @@
-# 4_My_Company
- Proposed Web Site for HS Students
+The purpose of this repository, is to offer participating youth a starting point for their website.
