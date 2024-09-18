@@ -8,6 +8,36 @@
 	<link rel="stylesheet" type="text/css" href="css/nav.css">
 	<link rel="stylesheet" type="text/css" href="css/engineer/engineer-pg.css">
 	<script src="js/Nav_Handler.js"></script>
+
+	<style>
+
+		.item1 { grid-area: header; }
+		.item2 { grid-area: left; }
+		.item3 { grid-area: right; }
+
+		.page{
+			width: 99vw;
+			height: 95vh;
+			display: grid;
+  			grid-template-areas:
+    			'header header'
+    			'left right';
+  			gap: 10px;
+		}
+
+		.page > label{
+			text-align: center;
+		}
+
+		.heading{
+			font-size: 4em;
+		}
+
+		.label{
+			font-size: 3em;
+			cursor: pointer;
+		}
+	</style>
 	
 </head>
 	 
@@ -31,7 +61,9 @@
     <!--    <div id="nav-bottom-id"></div>  -->
     </nav> 
     <div class="page">
-		<h1>Welcome to the Engineering Dept page</h1>
+		<label class="item1 heading">Welcome to the Engineering Dept page</label>
+		<label class="item2 engr-packet label">Engineering<br>Packet</label>
+		<label class="item3 tutorial label">Tutorials</label>
     </div>
 
 
